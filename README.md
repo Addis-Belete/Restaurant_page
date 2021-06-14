@@ -20,6 +20,19 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://addis0943.github.io/Restaurant/)
 
+## Prerequest
+
+```
+Web Browser
+```
+
+## Install
+
+```
+$ npm install --save-dev webpack
+
+```
+
 ## Getting Started
 
 ## To get local copy up and running follow these simple example steps
