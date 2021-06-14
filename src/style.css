@@ -7,83 +7,78 @@
     url('./fonts/Inter-Regular.woff') format('woff');
 }
 
-body{
- 
-background-color: #E5E5E5;
-}
-header{
-display:flex;
-font-family: Inter;
-}
-header a{
-width:30%;
-font-size: 40px;
-padding-left: 5%;
-color: #091e42 !important;
-text-decoration: none;
-
-}
-header nav{
-position: relative;
-left:30%;
-
-
-}
-header nav a{
-position: relative;
-top:15px;
-padding-left: 25%;
-
-font-size: 20px;
+body {
+  background-color: #e5e5e5;
 }
 
-section{
-width: 50%;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-top:100px;
-
-}
-section h2{
-text-align: center;
-color: #FF6B00;
-font-size: 45px;
+header {
+  display: flex;
 }
 
-section p{
-font-size: 20px;
-font-family: Inter;
-color: #091e42;
-line-height: 30px;
-}
-section a{
- padding: 12px;
-    width: 124px;
-    height: 48px;
-    background: #ff6b00;
-    margin: 12px 0;
-    border: none;
-text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 24px;
-    color: #fff;
+header a {
+  width: 30%;
+  font-size: 40px;
+  padding-left: 5%;
+  color: #091e42 !important;
+  text-decoration: none;
 }
 
-footer{
-position: relative;
-top:300px;
-
-
-
+header nav {
+  position: relative;
+  left: 30%;
 }
 
-footer p{
-color: #091e42;
-width: 100px;
-font-size: 25px;
-position: relative;
-left: 50%;
+section a {
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  margin: 12px 0;
+  border: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+header nav a {
+  position: relative;
+  top: 15px;
+  padding-left: 25%;
+  font-size: 20px;
+}
+
+section {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+}
+
+section h2 {
+  text-align: center;
+  color: #ff6b00;
+  font-size: 45px;
+}
+
+section p {
+  font-size: 20px;
+  color: #091e42;
+  line-height: 30px;
+}
+
+footer {
+  position: relative;
+  top: 300px;
+}
+
+footer p {
+  color: #091e42;
+  width: 100px;
+  font-size: 25px;
+  position: relative;
+  left: 50%;
 }
