@@ -16,25 +16,27 @@ function component() {
 	const description = document.createElement('p')
 	const footer = document.createElement('footer')
 	const copy = document.createElement('p')
-
+	const order_now = document.createElement('a');
 	logo.innerHTML = "Ethiopian Food";
 	home.innerHTML = "Home";
 	menu.innerHTML = "Menu";
+	order_now.innerHTML = "Go to Menu";
+	order_now.setAttribute('href', './menu.html');
 	menu.setAttribute("href", './menu.html');
 	contact.setAttribute('href', './contact.html');
 	home.setAttribute('href', './index.html');
 	logo.setAttribute('href', './index.html');
 	contact.innerHTML = "Contacts"
 	about.innerHTML = "About Ethiopian Food"
-	description.innerHTML = `"Ethiopian cuisine (Oromo: Nyaata Etiyoophiyaa; Amharic: የኢትዮጵያ ምግብ) 
-                             characteristically consists of vegetable and often very spicy meat dishes. ... 
+	description.innerHTML = `Ethiopian cuisine (Oromo: Nyaata Etiyoophiyaa; Amharic: የኢትዮጵያ ምግብ) 
+                             characteristically consists of vegetable and often very spicy meat dishes. 
                              Ethiopians eat most of the time with their right hands,
-                             using pieces of injera to pick up bites of entrées and side dishes."`
+                             using pieces of injera to pick up bites of entrées and side dishes.`
 	copy.innerHTML = "&copy 2021";
 
 	nav.append(home, menu, contact);
 	header.append(logo, nav);
-	section.append(about, description);
+	section.append(about, description, order_now);
 	footer.appendChild(copy)
 	logo.classList.add('logo');
 	element.append(header, section, footer);
