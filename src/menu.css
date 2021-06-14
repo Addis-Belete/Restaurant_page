@@ -43,6 +43,8 @@ width: 80%;
 margin-right: auto;
 margin-left: auto;
 margin-top: 30px;
+margin-left: 13.5%;
+
 
 }
 section .card_one{
@@ -104,19 +106,200 @@ right: 77px;
     line-height: 24px;
     color: #fff;
 }
+section .card_two{
+width: 90%;
+
+}
+section .card_two img{
+width: 90%;
+height: 300px;
+border-radius: 10%;
+}
+section .card_two h3{
+font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #091e42;
+margin-top: -10px;
+}
+
+section .card_two p{
+width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+color: #091e42;
+margin-top: -25px;
+}
+
+section .card_two span{
+    width: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    height: 20px;
+    color: #091e42;
+    border: 1px solid #8993a4;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 10px 12px;
+position: relative;
+top:-20px;
+}
+section .card_two button{
+position: relative;
+top:40px;
+right: 77px;
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    background: #ff6b00;
+    margin: 12px 0;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+}
+
+section .card_three{
+width: 90%;
+margin-top: 80px;
+
+}
+section .card_three img{
+width: 90%;
+height: 300px;
+border-radius: 10%;
+}
+section .card_three h3{
+font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #091e42;
+margin-top: -10px;
+}
+
+section .card_three p{
+width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+color: #091e42;
+margin-top: -25px;
+}
+
+section .card_three span{
+    width: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    height: 20px;
+    color: #091e42;
+    border: 1px solid #8993a4;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 10px 12px;
+position: relative;
+top:-20px;
+}
+section .card_three button{
+position: relative;
+top:40px;
+right: 77px;
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    background: #ff6b00;
+    margin: 12px 0;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+}
+
+section .card_four{
+width: 90%;
+margin-top: 80px;
+
+}
+section .card_four img{
+width: 90%;
+height: 300px;
+border-radius: 10%;
+}
+section .card_four h3{
+font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #091e42;
+margin-top: -10px;
+}
+
+section .card_four p{
+width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+color: #091e42;
+margin-top: -25px;
+}
+
+section .card_four span{
+    width: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    height: 20px;
+    color: #091e42;
+    border: 1px solid #8993a4;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 10px 12px;
+position: relative;
+top:-20px;
+}
+section .card_four button{
+position: relative;
+top:40px;
+right: 77px;
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    background: #ff6b00;
+    margin: 12px 0;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+}
 
 footer{
 position: relative;
-top:350px;
+top:60px;
 
 
 
 }
 
 footer p{
-color: #fff;
+ color: #091e42;
 width: 100px;
-font-size: 15px;
+font-size: 25px;
 position: relative;
 left: 50%;
 }
