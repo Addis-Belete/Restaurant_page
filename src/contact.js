@@ -1,7 +1,7 @@
 import './contact.css';
 import Maps from './Images/map.png';
 
-function component() {
+const component = () => {
   const element = document.getElementById('contact');
   const header = document.createElement('header');
   const nav = document.createElement('nav');
@@ -51,7 +51,7 @@ function component() {
   element.append(header, section, footer);
 
   return element;
-}
+};
 
 document.body.appendChild(component());
 document.body.classList.add('page');

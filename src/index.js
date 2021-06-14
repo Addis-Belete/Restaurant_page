@@ -1,6 +1,6 @@
 import './style.css';
 
-function component() {
+const component = () => {
   const element = document.getElementById('content');
   const header = document.createElement('header');
   const nav = document.createElement('nav');
@@ -39,7 +39,7 @@ function component() {
   element.append(header, section, footer);
 
   return element;
-}
+};
 
 document.body.appendChild(component());
 document.body.classList.add('page');

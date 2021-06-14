@@ -4,7 +4,7 @@ import Kitfo from './Images/kitfo.jpeg';
 import Beyeaynet from './Images/aynet.jpeg';
 import Tibs from './Images/tibs.jpeg';
 
-function component() {
+const component = () => {
   const element = document.getElementById('food_menu');
   const header = document.createElement('header');
   const nav = document.createElement('nav');
@@ -101,7 +101,7 @@ and niter.`;
   element.append(header, section, footer);
 
   return element;
-}
+};
 
 document.body.appendChild(component());
 document.body.classList.add('page');
