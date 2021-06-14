@@ -1,7 +1,7 @@
 
 import _ from 'lodash';
 import './contact.css';
-
+import Maps from './Images/map.png';
 function component() {
 	const element = document.getElementById('contact');
 	const header = document.createElement('header');
@@ -15,10 +15,21 @@ function component() {
 	const copy = document.createElement('p')
 	const order_now = document.createElement('a');
 	// for contact only
+	const contact_us = document.createElement('div')
+	const address = document.createElement('h3');
+	const contact_on = document.createElement('h3');
+	const email = document.createElement('p');
+	const phone = document.createElement('p');
 
 
+	contact_on.innerHTML = "Contact Us On";
+	email.innerHTML = "Email: Addis.bel@gmail.com";
+	phone.innerHTML = "Phone Number : +251943413849";
 
-
+	const myMap = new Image();
+	myMap.src = Maps;
+	contact_us.append(address, myMap, contact_on, email, phone);
+	section.append(contact_us)
 
 	//end
 	logo.innerHTML = "Ethiopian Food";
