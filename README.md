@@ -20,7 +20,7 @@ Additional description about the project and its features.
 
 [Live Demo Link](https://addis0943.github.io/Restaurant/)
 
-## Prerequest
+## Prerequisites
 
 ```
 Web Browser
