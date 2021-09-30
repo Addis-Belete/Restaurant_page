@@ -2,7 +2,7 @@
 
 # Restaraunt Page
 
-> In this project, I built a basic restaurant page using JavaScript and webpack. All pages are build using DOM manipulation.
+> In this project, I built a basic restaurant page using JavaScript and webpack. All pages are build using DOM manipulations.
 
 ![screenshot](./assets/home_page.png)
 ![screenshot](./assets/menu_page.png)
