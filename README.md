@@ -15,6 +15,7 @@ Additional description about the project and its features.
 - JavaScript
 - Webpack
 - Css3
+- Dom manipulations
 
 ## Live Demo
 
